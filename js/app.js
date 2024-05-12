@@ -78,6 +78,8 @@ function checkForWinner() {
     checkWinningCombinations("0", "4", "8");
   }
   determineWinner();
+      
+      if(arrOfO.length + arrOfX.length === 9) message.innerText = "Cats Game! 🐱";
 }
 
 // * reset game
