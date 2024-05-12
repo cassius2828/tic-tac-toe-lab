@@ -6,8 +6,6 @@ const message = document.querySelector("#message");
 const resetBtn = document.querySelector(".reset");
 
 /*---------------------------- Variables (state) ----------------------------*/
-let player1;
-let player2;
 let arrOfSquares = [];
 let isXturn = true;
 /*------------------------ Cached Element References ------------------------*/
